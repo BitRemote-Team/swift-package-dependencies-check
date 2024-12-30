@@ -43,7 +43,7 @@ The GitHub action is looking in the current directory (`.`) for the package mani
 ```yaml
   - name: Check Swift Package dependencies
     id: spm-dep-check
-    uses: Sherlouk/swift-package-dependencies-check@main
+    uses: MarcoEidinger/swift-package-dependencies-check@main
     with:
       isMutating: true
       failWhenOutdated: false
