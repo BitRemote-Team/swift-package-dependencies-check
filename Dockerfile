@@ -1,4 +1,4 @@
-FROM swift:6.1
+FROM swift:6.2
 
 ARG SWIFT_RELEASENOTES_REPOSITORY="https://github.com/SwiftPackageIndex/ReleaseNotes.git"
 ARG SWIFT_RELEASENOTES_BRANCH="main"
